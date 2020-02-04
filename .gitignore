@@ -351,3 +351,11 @@ dmypy.json
 
 # tomcat server directory
 Servers
+
+# image directory
+image_temp
+imagenet_model
+
+# etc
+connector_predict.py
+predict.py
