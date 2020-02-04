@@ -349,6 +349,9 @@ dmypy.json
 
 # End of https://www.gitignore.io/api/java,python,pycharm,eclipse,java-web,intellij
 
+# Database Configuration
+WEB-INF/applicationContext.xml
+
 # tomcat server directory
 Servers
 
@@ -359,3 +362,4 @@ imagenet_model
 # etc
 connector_predict.py
 predict.py
+/socket-client-rds/
