@@ -31,10 +31,10 @@
 				<form method="post" action="<c:url value="/user/login" />">
 					<div class="row gtr-50">
 						<div class="col-6 col-12-mobile">
-							ID <input type="text" name="userID" placeholder="userID" />
+							ID <input type="text" name="email" placeholder="Email" />
 						</div>
 						<div class="col-6 col-12-mobile">
-							PASSWORD <input type="password" name="pwd" placeholder="password" />
+							PASSWORD <input type="password" name="password" placeholder="password" />
 						</div>
 
 						<div class="col-12">

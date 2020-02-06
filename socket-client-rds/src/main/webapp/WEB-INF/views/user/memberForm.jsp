@@ -131,14 +131,14 @@ chk-box {
 							<input type="text" name="email" placeholder="이메일" />
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="password" name="pwd" placeholder="비밀번호" />
+							<input type="password" name="password" placeholder="비밀번호" />
 						</div>
 						<div class="col-6 col-12-mobile">
-							<input type="text" name="hp" placeholder="휴대폰 번호" />
+							<input type="text" name="phone" placeholder="휴대폰 번호" />
 						</div>
 						<div class="col-6 col-12-mobile">
 							<input type="text" name="birth"
-								placeholder="생일 입력 ex) 2000.12.01" />
+								placeholder="생일 입력 ex) 2000-12-01" />
 						</div>
 						<div class="col-6 col-12-mobile">
 							<input type="text" name="job" placeholder="직업(선택사항)" />
