@@ -23,11 +23,13 @@
 		expression="org.springframework.stereotype.Component"/>
 	</context:component-scan>
 	
+	<context:property-placeholder location="/WEB-INF/settings/dataSource.properties" />
+	
 	<bean id="mysqlDataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://test.ceym9w58p9rn.ap-northeast-2.rds.amazonaws.com:3306/testdb" />
-		<property name="username" value="admin" />
-		<property name="password" value="asdf1234" />
+		<property name="url" value="${dburl}" />
+		<property name="username" value="${dbuser}" />
+		<property name="password" value="${dbpass}" />
 	</bean>
 	
 	<!-- MyBatis SqlSessionFactoryBean -->
